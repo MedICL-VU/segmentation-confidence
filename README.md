@@ -10,10 +10,10 @@ train_3d.py and infer_3d.py scripts implement training and inference with a 3D U
 infer_3d_with_confidence.py script implements the test-time gaussian noise augmentations and the stdev+entropy method in the paper to produce an uncertainty map and the volume-wide confidence score.
 
 Required packages:
-nibabel
-numpy
-pandas
-pynrrd
-pytorch
-scikit-image
-scipy
+- nibabel
+- numpy
+- pandas
+- pynrrd
+- pytorch
+- scikit-image
+- scipy
